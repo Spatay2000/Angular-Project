@@ -6,9 +6,16 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { LayoutComponent } from './layout/layout.component';
 import { AplComponent } from './apl/apl.component';
-import { TableComponent } from './table/table.component';
+
 import { ClubsComponent } from './clubs/clubs.component';
 import { ScorersComponent } from './scorers/scorers.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+
+
 
 
 @NgModule({
@@ -16,15 +23,20 @@ import { ScorersComponent } from './scorers/scorers.component';
     AppComponent,
     HeaderComponent,
     LayoutComponent,
-    TableComponent,
     AplComponent,
     ClubsComponent,
-    ScorersComponent
+    ScorersComponent,
+    
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
