@@ -21,13 +21,18 @@ import { FooterComponent } from './footer/footer.component';
 import { AplGuard } from './apl/apl.guard';
 import { TableGuard } from './table/table.guard';
 import { ClubsGuard } from './clubs/clubs.guard';
+import { TableService } from './table/table.service';
+import { ScorersService } from './scorers/scorers.service';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import {FormsModule} from '@angular/forms';
+import {ReactiveFormsModule} from '@angular/forms';
 
 const appRoutes: Routes = [
   {path: 'apl', component: AplComponent, canActivate:[AplGuard] },
   {path: 'Scorers', component: ScorersComponent},
   {path: 'Standing', component: TableComponent, canActivate:[TableGuard]},
   {path: 'Clubs', component: ClubsComponent, canActivate:[ClubsGuard]},
-
+  {path: 'Contact-Form', component: ContactFormComponent},
 ];
 
 
@@ -40,6 +45,7 @@ const appRoutes: Routes = [
     ScorersComponent,
     TableComponent,
     FooterComponent,
+    ContactFormComponent,
     
     
   ],
@@ -51,10 +57,12 @@ const appRoutes: Routes = [
     MatCardModule,
     MatPaginatorModule,
     MatSortModule,
+    FormsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(appRoutes) 
     
   ],
-  providers: [],
+  providers: [TableService,ScorersService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

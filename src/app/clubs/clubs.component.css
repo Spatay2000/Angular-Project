@@ -19,3 +19,51 @@
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
   }
+
+  .example-card2 {
+    width: 300px;
+    margin-left: 50px;
+    bottom: 490px;    
+}
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .example-card3 {
+    width: 300px;
+    margin-left: 1000px;
+    bottom: 1850px;   
+
+}
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+
+
+  .example-card4 {
+    width: 300px;
+    margin-left: 500px;
+    bottom: 1790px;    
+}
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .example-card5 {
+    width: 300px;
+    margin-left: 1000px;
+    bottom: 2590px;   
+
+}
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
