@@ -1,0 +1,22 @@
+<mat-card class="example-card">
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <header>   <h2> Just to comment our website, so you help to update our website </h2> </header>
+      
+           <p>
+               <label> FirstName </label>
+               <input type = "text" class = "form-control" formControlName = "firstName">
+           
+           <p>
+               <label> LastName </label>
+               <input type = "text" class = "form-control" formControlName = "lastName">
+           </p>
+           <p>
+               <label> Comment </label>
+               <input type = "text" cols="40" rows="6" class = "form-control" formControlName = "comment">
+           </p>
+
+           <button type="submit">Submit</button>
+
+</form>
+
+</mat-card>
