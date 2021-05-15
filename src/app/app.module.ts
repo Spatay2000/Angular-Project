@@ -26,12 +26,15 @@ import { ScorersService } from './scorers/scorers.service';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import {FormsModule} from '@angular/forms';
 import {ReactiveFormsModule} from '@angular/forms';
+import { LaLigaTableComponent } from './la-liga-table/la-liga-table.component';
+import { HttpClientModule } from '@angular/common/http';
 
 const appRoutes: Routes = [
   {path: 'apl', component: AplComponent, canActivate:[AplGuard] },
   {path: 'Scorers', component: ScorersComponent},
   {path: 'Standing', component: TableComponent, canActivate:[TableGuard]},
   {path: 'Clubs', component: ClubsComponent, canActivate:[ClubsGuard]},
+  {path: 'StandingLaLiga', component: LaLigaTableComponent},
   {path: 'Contact-Form', component: ContactFormComponent},
 ];
 
@@ -46,6 +49,7 @@ const appRoutes: Routes = [
     TableComponent,
     FooterComponent,
     ContactFormComponent,
+    LaLigaTableComponent,
     
     
   ],
@@ -59,6 +63,7 @@ const appRoutes: Routes = [
     MatSortModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
     RouterModule.forRoot(appRoutes) 
     
   ],
