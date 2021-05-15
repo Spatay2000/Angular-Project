@@ -1,0 +1,25 @@
+{
+    "laliga": [
+      {
+        "id": 1,
+        "position": "1",
+        "name": "Atletico Madrid",
+        "games": "36",
+        "points": "80"
+      },
+      {
+        "id": 2,
+        "position": "2",
+        "name": "Real Madrid",
+        "games": "36",
+        "points": "78"
+      },
+      {
+        "id": 3,
+        "position": "3",
+        "name": "Barcelona",
+        "games": "36",
+        "points": "75"
+      }
+    ]
+  }
