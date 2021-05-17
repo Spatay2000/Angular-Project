@@ -1,25 +1,1078 @@
 {
-    "laliga": [
-      {
-        "id": 1,
-        "position": "1",
-        "name": "Atletico Madrid",
-        "games": "36",
-        "points": "80"
-      },
-      {
-        "id": 2,
-        "position": "2",
-        "name": "Real Madrid",
-        "games": "36",
-        "points": "78"
-      },
-      {
-        "id": 3,
-        "position": "3",
-        "name": "Barcelona",
-        "games": "36",
-        "points": "75"
-      }
-    ]
-  }
+  "laliga": [
+    {
+      "id": 1,
+      "position": "1",
+      "name": "Atletico Madrid",
+      "games": "36",
+      "points": "80"
+    },
+    {
+      "id": 2,
+      "position": "2",
+      "name": "Real Madrid",
+      "games": "36",
+      "points": "78"
+    },
+    {
+      "id": 3,
+      "position": "3",
+      "name": "Barcelona",
+      "games": "36",
+      "points": "76"
+    },
+    {
+      "id": 4,
+      "position": "4",
+      "name": "Sevilla",
+      "games": "36",
+      "points": "74"
+    },
+    {
+      "id": 5,
+      "position": "5",
+      "name": "Real Sociedad",
+      "games": "36",
+      "points": "56"
+    },
+    {
+      "id": 6,
+      "position": "6",
+      "name": "Real Betis",
+      "games": "36",
+      "points": "76"
+    },
+    {
+      "id": 7,
+      "position": "7",
+      "name": "Villareal",
+      "games": "36",
+      "points": "55"
+    },
+    {
+      "id": 8,
+      "position": "8",
+      "name": "Celta Vigo",
+      "games": "36",
+      "points": "50"
+    },
+    {
+      "id": 9,
+      "position": "9",
+      "name": "Athletic Bilbao",
+      "games": "36",
+      "points": "46"
+    },
+    {
+      "id": 10,
+      "position": "10",
+      "name": "Granada",
+      "games": "36",
+      "points": "45"
+    },
+    {
+      "id": 11,
+      "position": "11",
+      "name": "Osasuna",
+      "games": "36",
+      "points": "44"
+    },
+    {
+      "id": 12,
+      "position": "12",
+      "name": "Cadiz",
+      "games": "36",
+      "points": "43"
+    },
+    {
+      "id": 13,
+      "position": "13",
+      "name": "Levante",
+      "games": "36",
+      "points": "40"
+    },
+    {
+      "id": 14,
+      "position": "14",
+      "name": "Valencia",
+      "games": "36",
+      "points": "39"
+    },
+    {
+      "id": 15,
+      "position": "15",
+      "name": "Alaves",
+      "games": "36",
+      "points": "35"
+    },
+    {
+      "id": 16,
+      "position": "16",
+      "name": "Getafe",
+      "games": "36",
+      "points": "34"
+    },
+    {
+      "id": 17,
+      "position": "17",
+      "name": "Huezca",
+      "games": "36",
+      "points": "33"
+    },
+    {
+      "id": 18,
+      "position": "18",
+      "name": "Real Valladolid",
+      "games": "36",
+      "points": "31"
+    },
+    {
+      "id": 19,
+      "position": "19",
+      "name": "Elche",
+      "games": "36",
+      "points": "30"
+    },
+    {
+      "id": 20,
+      "position": "20",
+      "name": "Alaves",
+      "games": "36",
+      "points": "30"
+    }
+  ],
+  "SeriaA": [
+    {
+      "id": 1,
+      "position": "1",
+      "name": "Inter Milan",
+      "games": "37",
+      "points": "88"
+    },
+    {
+      "id": 2,
+      "position": "2",
+      "name": "Atalanta",
+      "games": "37",
+      "points": "78"
+    },
+    {
+      "id": 3,
+      "position": "3",
+      "name": "Milan",
+      "games": "36",
+      "points": "75"
+    },
+    {
+      "id": 4,
+      "position": "4",
+      "name": "Juventus",
+      "games": "37",
+      "points": "75"
+    },
+    {
+      "id": 5,
+      "position": "5",
+      "name": "Napoli",
+      "games": "36",
+      "points": "73"
+    },
+    {
+      "id": 6,
+      "position": "6",
+      "name": "Lazio",
+      "games": "36",
+      "points": "67"
+    },
+    {
+      "id": 7,
+      "position": "7",
+      "name": "Roma",
+      "games": "36",
+      "points": "61"
+    },
+    {
+      "id": 8,
+      "position": "8",
+      "name": "Sassoula",
+      "games": "36",
+      "points": "56"
+    },
+    {
+      "id": 9,
+      "position": "9",
+      "name": "Sampdoria",
+      "games": "36",
+      "points": "46"
+    },
+    {
+      "id": 10,
+      "position": "10",
+      "name": "Verona",
+      "games": "36",
+      "points": "43"
+    },
+    {
+      "id": 11,
+      "position": "11",
+      "name": "Bologna",
+      "games": "36",
+      "points": "40"
+    },
+    {
+      "id": 12,
+      "position": "12",
+      "name": "Udinesa",
+      "games": "36",
+      "points": "40"
+    },
+    {
+      "id": 13,
+      "position": "13",
+      "name": "Fiorentina",
+      "games": "36",
+      "points": "39"
+    },
+    {
+      "id": 14,
+      "position": "14",
+      "name": "Genoa",
+      "games": "36",
+      "points": "39"
+    },
+    {
+      "id": 15,
+      "position": "15",
+      "name": "Spezia",
+      "games": "36",
+      "points": "38"
+    },
+    {
+      "id": 16,
+      "position": "16",
+      "name": "Cagliaro",
+      "games": "36",
+      "points": "36"
+    },
+    {
+      "id": 17,
+      "position": "17",
+      "name": "Torino",
+      "games": "36",
+      "points": "35"
+    },
+    {
+      "id": 18,
+      "position": "18",
+      "name": "Benevento",
+      "games": "36",
+      "points": "31"
+    },
+    {
+      "id": 19,
+      "position": "19",
+      "name": "Crotone",
+      "games": "36",
+      "points": "21"
+    },
+    {
+      "id": 20,
+      "position": "20",
+      "name": "Parma",
+      "games": "36",
+      "points": "20"
+    }
+  ],
+  "Ligue1": [
+    {
+      "id": 1,
+      "position": "1",
+      "name": "Lille",
+      "games": "36",
+      "points": "79"
+    },
+    {
+      "id": 2,
+      "position": "2",
+      "name": "Paris Saint-Germain",
+      "games": "36",
+      "points": "76"
+    },
+    {
+      "id": 3,
+      "position": "3",
+      "name": "Monaco",
+      "games": "36",
+      "points": "74"
+    },
+    {
+      "id": 4,
+      "position": "4",
+      "name": "Lyon",
+      "games": "36",
+      "points": "73"
+    },
+    {
+      "id": 5,
+      "position": "5",
+      "name": "Marseille",
+      "games": "36",
+      "points": "56"
+    },
+    {
+      "id": 6,
+      "position": "6",
+      "name": "RS Lenc",
+      "games": "36",
+      "points": "56"
+    },
+    {
+      "id": 7,
+      "position": "7",
+      "name": "Rennes",
+      "games": "36",
+      "points": "55"
+    },
+    {
+      "id": 8,
+      "position": "8",
+      "name": "Montpeiler",
+      "games": "36",
+      "points": "50"
+    },
+    {
+      "id": 9,
+      "position": "9",
+      "name": "Nice",
+      "games": "36",
+      "points": "49"
+    },
+    {
+      "id": 10,
+      "position": "10",
+      "name": "Metz",
+      "games": "36",
+      "points": "46"
+    },
+    {
+      "id": 11,
+      "position": "11",
+      "name": "St Etienne",
+      "games": "36",
+      "points": "45"
+    },
+    {
+      "id": 12,
+      "position": "12",
+      "name": "Angers",
+      "games": "36",
+      "points": "44"
+    },
+    {
+      "id": 13,
+      "position": "13",
+      "name": "Reims",
+      "games": "36",
+      "points": "42"
+    },
+    {
+      "id": 14,
+      "position": "14",
+      "name": "Brest",
+      "games": "36",
+      "points": "40"
+    },
+    {
+      "id": 15,
+      "position": "15",
+      "name": "Bordeaux",
+      "games": "36",
+      "points": "39"
+    },
+    {
+      "id": 16,
+      "position": "16",
+      "name": "Strasbourg",
+      "games": "36",
+      "points": "38"
+    },
+    {
+      "id": 17,
+      "position": "17",
+      "name": "Lorient",
+      "games": "36",
+      "points": "38"
+    },
+    {
+      "id": 18,
+      "position": "18",
+      "name": "Nantes",
+      "games": "36",
+      "points": "37"
+    },
+    {
+      "id": 19,
+      "position": "19",
+      "name": "Nimes",
+      "games": "36",
+      "points": "35"
+    },
+    {
+      "id": 20,
+      "position": "20",
+      "name": "Dijon",
+      "games": "36",
+      "points": "18"
+    }
+  ],
+  "Bundesliga": [
+    {
+      "id": 1,
+      "position": "1",
+      "name": "Bayern Munich",
+      "games": "33",
+      "points": "75"
+    },
+    {
+      "id": 2,
+      "position": "2",
+      "name": "RB Leipzig",
+      "games": "32",
+      "points": "64"
+    },
+    {
+      "id": 3,
+      "position": "3",
+      "name": "Wolfsburg",
+      "games": "32",
+      "points": "60"
+    },
+    {
+      "id": 4,
+      "position": "4",
+      "name": "Borrusia Dortmund",
+      "games": "32",
+      "points": "58"
+    },
+    {
+      "id": 5,
+      "position": "5",
+      "name": "Frankfurt",
+      "games": "33",
+      "points": "57"
+    },
+    {
+      "id": 6,
+      "position": "6",
+      "name": "Bayer Leverkusen",
+      "games": "33",
+      "points": "52"
+    },
+    {
+      "id": 7,
+      "position": "7",
+      "name": "Union Berlin",
+      "games": "33",
+      "points": "47"
+    },
+    {
+      "id": 8,
+      "position": "8",
+      "name": "M1gladbach",
+      "games": "33",
+      "points": "46"
+    },
+    {
+      "id": 9,
+      "position": "9",
+      "name": "Stuttgard",
+      "games": "33",
+      "points": "45"
+    },
+    {
+      "id": 10,
+      "position": "10",
+      "name": "Freiburg",
+      "games": "33",
+      "points": "45"
+    },
+    {
+      "id": 11,
+      "position": "11",
+      "name": "Hoffenhaim",
+      "games": "33",
+      "points": "40"
+    },
+    {
+      "id": 12,
+      "position": "12",
+      "name": "FC Augsburg",
+      "games": "33",
+      "points": "36"
+    },
+    {
+      "id": 13,
+      "position": "13",
+      "name": "Mainz",
+      "games": "33",
+      "points": "36"
+    },
+    {
+      "id": 14,
+      "position": "14",
+      "name": "Hertha Berlin",
+      "games": "33",
+      "points": "35"
+    },
+    {
+      "id": 15,
+      "position": "15",
+      "name": "Arminia Bielefeld",
+      "games": "33",
+      "points": "32"
+    },
+    {
+      "id": 16,
+      "position": "16",
+      "name": "Werder Bremen",
+      "games": "33",
+      "points": "31"
+    },
+    {
+      "id": 17,
+      "position": "17",
+      "name": "Cologne",
+      "games": "33",
+      "points": "30"
+    },
+    {
+      "id": 18,
+      "position": "18",
+      "name": "Shalke",
+      "games": "33",
+      "points": "16"
+    }
+  ],
+  "epl": [
+    {
+      "id": 1,
+      "position": "1",
+      "name": "Manchester City",
+      "games": "36",
+      "points": "83"
+    },
+    {
+      "id": 2,
+      "position": "2",
+      "name": "Manchester United",
+      "games": "36",
+      "points": "70"
+    },
+    {
+      "id": 3,
+      "position": "3",
+      "name": "Leicester City",
+      "games": "36",
+      "points": "66"
+    },
+    {
+      "id": 4,
+      "position": "4",
+      "name": "Chealsea",
+      "games": "36",
+      "points": "64"
+    },
+    {
+      "id": 5,
+      "position": "5",
+      "name": "liverpool",
+      "games": "36",
+      "points": "60"
+    },
+    {
+      "id": 6,
+      "position": "6",
+      "name": "Tottenham",
+      "games": "36",
+      "points": "59"
+    },
+    {
+      "id": 7,
+      "position": "7",
+      "name": "West Ham",
+      "games": "36",
+      "points": "59"
+    },
+    {
+      "id": 8,
+      "position": "8",
+      "name": "Everton",
+      "games": "36",
+      "points": "56"
+    },
+    {
+      "id": 9,
+      "position": "9",
+      "name": "Arsenal",
+      "games": "36",
+      "points": "55"
+    },
+    {
+      "id": 10,
+      "position": "10",
+      "name": "Leeds United",
+      "games": "36",
+      "points": "53"
+    },
+    {
+      "id": 11,
+      "position": "11",
+      "name": "Aston Villa",
+      "games": "36",
+      "points": "49"
+    },
+    {
+      "id": 12,
+      "position": "12",
+      "name": "Wolverhampton",
+      "games": "36",
+      "points": "45"
+    },
+    {
+      "id": 13,
+      "position": "13",
+      "name": "Crystal Palace ",
+      "games": "36",
+      "points": "44"
+    },
+    {
+      "id": 14,
+      "position": "14",
+      "name": "Southampton",
+      "games": "36",
+      "points": "43"
+    },
+    {
+      "id": 15,
+      "position": "15",
+      "name": "Burnley",
+      "games": "36",
+      "points": "39"
+    },
+    {
+      "id": 16,
+      "position": "16",
+      "name": "Newcastle United",
+      "games": "36",
+      "points": "39"
+    },
+    {
+      "id": 17,
+      "position": "17",
+      "name": "Brighton and Hove Albion",
+      "games": "36",
+      "points": "38"
+    },
+    {
+      "id": 18,
+      "position": "18",
+      "name": "West Bromwich",
+      "games": "36",
+      "points": "29"
+    },
+    {
+      "id": 19,
+      "position": "19",
+      "name": "Fulham",
+      "games": "36",
+      "points": "27"
+    },
+    {
+      "id": 20,
+      "position": "20",
+      "name": "Sheffield United",
+      "games": "36",
+      "points": "17"
+    }
+  ],
+  "eplScorers": [
+    {
+      "id": 1,
+      "position": "1",
+      "name": "Harry Kane",
+      "team": "Tottenham",
+      "goals": "22"
+    },
+    {
+      "id": 2,
+      "position": "2",
+      "name": "Mohammed Salah",
+      "team": "Liverpool",
+      "goals": "21"
+    },
+    {
+      "id": 3,
+      "position": "3",
+      "name": "Bruno Fernandes",
+      "team": "Manchester United",
+      "goals": "18"
+    },
+    {
+      "id": 4,
+      "position": "4",
+      "name": "Son Heung-Min",
+      "team": "Tottenham",
+      "goals": "17"
+    },
+    {
+      "id": 5,
+      "position": "5",
+      "name": "Dominic Calvert-Lewin",
+      "team": "Everton",
+      "goals": "16"
+    },
+    {
+      "id": 6,
+      "position": "6",
+      "name": "Patrick Bamford",
+      "team": "Leeds",
+      "goals": "15"
+    },
+    {
+      "id": 7,
+      "position": "7",
+      "name": "Alexandre Lacazette",
+      "team": "Arsenal",
+      "goals": "13"
+    },
+    {
+      "id": 8,
+      "position": "8",
+      "name": "Jamie Vardy",
+      "team": "Leicester",
+      "goals": "13"
+    },
+    {
+      "id": 9,
+      "position": "9",
+      "name": "Ollie Watkins",
+      "team": "Aston Villa",
+      "goals": "13"
+    },
+    {
+      "id": 10,
+      "position": "10",
+      "name": "Callum Wilson",
+      "team": "Newcastle",
+      "goals": "12"
+    }
+  ],
+  "LaLigaScorers": [
+    {
+      "id": 1,
+      "position": "1",
+      "name": "Lionel Messi",
+      "team": "Barcelona",
+      "goals": "29"
+    },
+    {
+      "id": 2,
+      "position": "2",
+      "name": "Gerard Moreno",
+      "team": "Villarreal",
+      "goals": "22"
+    },
+    {
+      "id": 3,
+      "position": "3",
+      "name": "Karim Benzema",
+      "team": "Real Madrid",
+      "goals": "22"
+    },
+    {
+      "id": 4,
+      "position": "4",
+      "name": "Luis Suárez",
+      "team": "Atlético Madrid",
+      "goals": "19"
+    },
+    {
+      "id": 5,
+      "position": "5",
+      "name": "Youssef En-Nesyri",
+      "team": "Sevilla",
+      "goals": "18"
+    },
+    {
+      "id": 6,
+      "position": "6",
+      "name": "Alexander Isak",
+      "team": "Real Sociedad",
+      "goals": "14"
+    },
+    {
+      "id": 7,
+      "position": "7",
+      "name": "Iago Aspas",
+      "team": "Celta Vigo",
+      "goals": "13"
+    },
+    {
+      "id": 8,
+      "position": "8",
+      "name": "José Luis Morales",
+      "team": "Levante",
+      "goals": "13"
+    },
+    {
+      "id": 9,
+      "position": "9",
+      "name": "Rafa Mir",
+      "team": "Huesca",
+      "goals": "13"
+    },
+    {
+      "id": 10,
+      "position": "10",
+      "name": "Antoine Griezmann",
+      "team": "Barcelona",
+      "goals": "12"
+    }
+  ],
+  "BundesligaScorers": [
+    {
+      "id": 1,
+      "position": "1",
+      "name": "Robert Lewandowski",
+      "team": "Bayern München",
+      "goals": "40"
+    },
+    {
+      "id": 2,
+      "position": "2",
+      "name": "André Silva",
+      "team": "Eintracht Frankfurt",
+      "goals": "27"
+    },
+    {
+      "id": 3,
+      "position": "3",
+      "name": "Erling Braut Haaland",
+      "team": "Borussia Dortmund",
+      "goals": "25"
+    },
+    {
+      "id": 4,
+      "position": "4",
+      "name": "Wout Weghorst",
+      "team": "Wolfsburg",
+      "goals": "20"
+    },
+    {
+      "id": 5,
+      "position": "5",
+      "name": "Andrej Kramaric",
+      "team": "Hoffenheim",
+      "goals": "19"
+    },
+    {
+      "id": 6,
+      "position": "6",
+      "name": "Sasa Kalajdzic",
+      "team": "Stuttgart",
+      "goals": "16"
+    },
+    {
+      "id": 7,
+      "position": "7",
+      "name": "Lars Stindl",
+      "team": "Borussia Mönchengladbach",
+      "goals": "13"
+    },
+    {
+      "id": 8,
+      "position": "8",
+      "name": "Lucas Alario",
+      "team": "Bayer Leverkusen",
+      "goals": "11"
+    },
+    {
+      "id": 9,
+      "position": "9",
+      "name": "Thomas Müller",
+      "team": "Bayern München",
+      "goals": "11"
+    },
+    {
+      "id": 10,
+      "position": "10",
+      "name": "Silas Wamangituka",
+      "team": "Stuttgart",
+      "goals": "11"
+    }
+  ],
+  "SeriaScorers": [
+    {
+      "id": 1,
+      "position": "1",
+      "name": "Cristiano Ronaldo",
+      "team": "Juventus",
+      "goals": "29"
+    },
+    {
+      "id": 2,
+      "position": "2",
+      "name": "Romelu Lukaku",
+      "team": "Inter",
+      "goals": "23"
+    },
+    {
+      "id": 3,
+      "position": "3",
+      "name": "Luis Muriel",
+      "team": "Atalanta",
+      "goals": "22"
+    },
+    {
+      "id": 4,
+      "position": "4",
+      "name": "Dusan Vlahovic",
+      "team": "Fiorentina",
+      "goals": "21"
+    },
+    {
+      "id": 5,
+      "position": "5",
+      "name": "Ciro Immobile",
+      "team": "Lazio",
+      "goals": "20"
+    },
+    {
+      "id": 6,
+      "position": "6",
+      "name": "Simy",
+      "team": "Crotone",
+      "goals": "20"
+    },
+    {
+      "id": 7,
+      "position": "7",
+      "name": "Lorenzo Insigne",
+      "team": "Napoli",
+      "goals": "19"
+    },
+    {
+      "id": 8,
+      "position": "8",
+      "name": "Domenico Berardi",
+      "team": "Sassuolo",
+      "goals": "16"
+    },
+    {
+      "id": 9,
+      "position": "9",
+      "name": "João Pedro",
+      "team": "Cagliari",
+      "goals": "16"
+    },
+    {
+      "id": 10,
+      "position": "10",
+      "name": "Lautaro Martinez",
+      "team": "Inter",
+      "goals": "16"
+    }
+  ],
+  "Ligue1Scorers": [
+    {
+      "id": 1,
+      "position": "1",
+      "name": "Kylian Mbappe",
+      "team": "Paris Saint-Germain",
+      "goals": "26"
+    },
+    {
+      "id": 2,
+      "position": "2",
+      "name": "Memphis Depay",
+      "team": "Lyon",
+      "goals": "20"
+    },
+    {
+      "id": 3,
+      "position": "3",
+      "name": "Wissam Ben Yedder",
+      "team": "Monaco",
+      "goals": "20"
+    },
+    {
+      "id": 4,
+      "position": "4",
+      "name": "Kevin Volland",
+      "team": "Monaco",
+      "goals": "16"
+    },
+    {
+      "id": 5,
+      "position": "5",
+      "name": "Ludovic Ajorque",
+      "team": "Strasbourg",
+      "goals": "16"
+    },
+    {
+      "id": 6,
+      "position": "6",
+      "name": "Burak Yilmaz",
+      "team": "Lille",
+      "goals": "15"
+    },
+    {
+      "id": 7,
+      "position": "7",
+      "name": "Gaëtan Laborde",
+      "team": "Montpellier",
+      "goals": "15"
+    },
+    {
+      "id": 8,
+      "position": "8",
+      "name": "Andy Delort",
+      "team": "Montpellier",
+      "goals": "14"
+    },
+    {
+      "id": 9,
+      "position": "9",
+      "name": "Boulaye Dia",
+      "team": "Reims",
+      "goals": "14"
+    },
+    {
+      "id": 10,
+      "position": "10",
+      "name": "Terem Moffi",
+      "team": "Lorient",
+      "goals": "13"
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "firstname": "10",
+      "lastname": "Terem Moffi",
+      "comment": "Lorient"
+    },
+    {
+      "firstName": "sa",
+      "lastName": "sasad",
+      "comment": "saasdas",
+      "id": 2
+    },
+    {
+      "firstName": null,
+      "lastName": null,
+      "comment": null,
+      "id": 3
+    }
+  ]
+}

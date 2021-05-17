@@ -5,13 +5,12 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class ScorersService { 
-  
-  
+export class ScorersaseriaService {
+
   constructor(private _http:HttpClient) { }
 
 
-  getAllscorersepl() : Observable<any>{
-    return this._http.get("http://localhost:3000/eplScorers");
+  getAllSeriaScorers() : Observable<any>{
+    return this._http.get("http://localhost:3000/SeriaScorers");
   }
 }

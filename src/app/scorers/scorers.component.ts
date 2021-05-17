@@ -7,12 +7,23 @@ import { ScorersService } from './scorers.service';
   styleUrls: ['./scorers.component.css']
 })
 export class ScorersComponent implements OnInit {
-  displayedColumns = ['position', 'name', 'weight', 'symbol'];
-  dataSource = ELEMENT_DATA
-  constructor(private _scorersService:ScorersService) { }
+  
+  ScorersData:Array<any> = [];
 
+  constructor(
+    private scorers:ScorersService
+  ) { 
+
+    this.scorers.getAllscorersepl().subscribe(
+      (response)=>{
+        console.log(response)
+        this.ScorersData = response;
+      }
+      
+    )
+  }
   ngOnInit(): void {
-    this.dataSource = this._scorersService.getScorers();
+    
   }
 
 }

@@ -5,13 +5,13 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class ScorersService { 
-  
-  
+export class BundesligaService {
+
   constructor(private _http:HttpClient) { }
 
 
-  getAllscorersepl() : Observable<any>{
-    return this._http.get("http://localhost:3000/eplScorers");
+  getAllbundesliga() : Observable<any>{
+    return this._http.get(" http://localhost:3000/Bundesliga");
   }
 }
+

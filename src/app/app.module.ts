@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -29,12 +30,27 @@ import {ReactiveFormsModule} from '@angular/forms';
 import { LaLigaTableComponent } from './la-liga-table/la-liga-table.component';
 import { HttpClientModule } from '@angular/common/http';
 
+import { SeriatableComponent } from './seriatable/seriatable.component';
+import { Ligue1tableComponent } from './ligue1table/ligue1table.component';
+import { BundesligatableComponent } from './bundesligatable/bundesligatable.component';
+import { Scorersligue1Component } from './scorersligue1/scorersligue1.component';
+import { ScorerslaligaComponent } from './scorerslaliga/scorerslaliga.component';
+import { ScorersbundesComponent } from './scorersbundes/scorersbundes.component';
+import { ScorersaseriaComponent } from './scorersaseria/scorersaseria.component';
+
 const appRoutes: Routes = [
   {path: 'apl', component: AplComponent, canActivate:[AplGuard] },
   {path: 'Scorers', component: ScorersComponent},
   {path: 'Standing', component: TableComponent, canActivate:[TableGuard]},
   {path: 'Clubs', component: ClubsComponent, canActivate:[ClubsGuard]},
   {path: 'StandingLaLiga', component: LaLigaTableComponent},
+  {path: 'StandingBundesLiga', component: BundesligatableComponent},
+  {path: 'StandingLigue1', component: Ligue1tableComponent},
+  {path: 'StandingSeriaA', component: SeriatableComponent},
+  {path: 'ScorersLigue1', component: Scorersligue1Component},
+  {path: 'ScorersLaLiga', component: ScorerslaligaComponent},
+  {path: 'ScorersBundesliga', component: ScorersbundesComponent},
+  {path: 'ScorersSeriaA', component: ScorersaseriaComponent},
   {path: 'Contact-Form', component: ContactFormComponent},
 ];
 
@@ -50,7 +66,13 @@ const appRoutes: Routes = [
     FooterComponent,
     ContactFormComponent,
     LaLigaTableComponent,
-    
+    SeriatableComponent,
+    Ligue1tableComponent,
+    BundesligatableComponent,
+    ScorerslaligaComponent,
+    Scorersligue1Component,
+    ScorersbundesComponent,
+    ScorersaseriaComponent
     
   ],
   imports: [
@@ -64,6 +86,8 @@ const appRoutes: Routes = [
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    
+    CommonModule,
     RouterModule.forRoot(appRoutes) 
     
   ],

@@ -7,18 +7,18 @@
             <tr>
                 <th>Position</th>
                 <th>Name</th>
-                <th>Games</th>
-                <th>Points</th>
+                <th>Team</th>
+                <th>Goals</th>
             </tr>
 
         </thead>
 
         <tbody>
-            <tr *ngFor="let dt of LaLigaData">
+            <tr *ngFor="let dt of  ScorersBundesData">
                 <td>{{dt.position}}</td>
                 <td>{{dt.name}}</td>
-                <td>{{dt.games}}</td>
-                <td>{{dt.points}}</td>
+                <td>{{dt.team}}</td>
+                <td>{{dt.goals}}</td>
             </tr>
         </tbody>
     </table>

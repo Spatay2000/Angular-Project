@@ -3,6 +3,7 @@
 <div class = "container">
 
     <table class = "table table-bordered">
+
         <thead>
             <tr>
                 <th>Position</th>
@@ -12,9 +13,8 @@
             </tr>
 
         </thead>
-
         <tbody>
-            <tr *ngFor="let dt of LaLigaData">
+            <tr *ngFor="let dt of BundesLigaData">
                 <td>{{dt.position}}</td>
                 <td>{{dt.name}}</td>
                 <td>{{dt.games}}</td>

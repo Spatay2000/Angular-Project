@@ -7,19 +7,29 @@ import { TableService } from './table.service';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
-  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
-  dataSource = ELEMENT_DATA;
-  constructor(private _tableService:TableService) { }
+  
+  EplData:Array<any> = [];
+
+  constructor(
+    private tableService:TableService
+  ) { 
+
+    this.tableService.getAllepl().subscribe(
+      (response)=>{
+        console.log(response)
+        this.EplData = response;
+      }
+      
+    )
+  }
 
   ngOnInit(): void {
-    this.dataSource = this._tableService.getTable();
+  
   }
-}
-export interface PeriodicElement {
-  name: string;
-  position: number;
-  games: number;
-  point: number;
-}
 
-const ELEMENT_DATA: PeriodicElement[] = [];  
+  
+  
+
+
+
+}
